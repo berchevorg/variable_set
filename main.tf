@@ -1,10 +1,6 @@
-variable "variable1"{
-  default = "georgiman"
-}
+variable "variable1"{}
 
-variable "variable2"{
-  default = "slav"
-}
+variable "variable2"{}
 
 resource "null_resource" "null1" {
   triggers = {
